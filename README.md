@@ -244,6 +244,95 @@ languages_spoken: [English, Hindi]
 
 </details>
 
+<details open>
+<summary><b>🛒 BOGECOM — E-Commerce Platform (Contributor)</b></summary>
+
+<br/>
+
+<table>
+<tr>
+<td width="100%">
+
+### 🛒 BOGECOM — Full Stack E-Commerce Platform
+
+> A live, production-grade e-commerce platform with storefront, admin dashboard, backend APIs, and cloud deployment on Google App Engine.
+
+**Tech Stack:**
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google_App_Engine-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+
+**Key Features:**
+- ✅ Product detail pages, cards, sliders, cart drawer & checkout flow
+- ✅ Order/payment processing with stock reservation system
+- ✅ Admin dashboard — product management, analytics, CRM, SEO tools
+- ✅ Combo recommendations, reviews, and newsletter system
+- ✅ Google App Engine deployment with CI/CD pipeline
+
+**My Contributions:**
+- Built and improved storefront UI components and customer-facing responsiveness
+- Contributed to backend APIs for products, orders, carts, reviews, and payments
+- Handled CORS/env configuration, API fixes, and deployment settings
+- Helped ship user-facing improvements faster and stabilize critical business flows
+
+</td>
+</tr>
+</table>
+
+</details>
+
+<details open>
+<summary><b>💬 B1G-CRM — B2B SaaS WhatsApp CRM (Contributor)</b></summary>
+
+<br/>
+
+<table>
+<tr>
+<td width="100%">
+
+### 💬 B1G-CRM — B2B SaaS WhatsApp CRM Platform
+
+> A scalable, multi-tenant B2B SaaS CRM with WhatsApp Automation, Omnichannel Inbox, Chatbot Flowbuilder, and Agent Management — serving real businesses.
+
+**Tech Stack:**
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socketdotio&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+
+**Key Features:**
+- ✅ 3-portal system — Admin, User (Tenant), and Agent portals
+- ✅ Real-time omnichannel inbox (WhatsApp, Instagram, Telegram, Web Chat)
+- ✅ Visual chatbot flowbuilder with React Flow
+- ✅ Broadcast campaigns, contact management & phonebook
+- ✅ JWT role-based authentication with agent impersonation
+- ✅ Stripe/Razorpay payment integration with SaaS billing
+- ✅ Real-time Socket.IO messaging with multi-tenant isolation
+
+**My Contributions:**
+- Built frontend React components for Admin, User, and Agent portals
+- Developed real-time chat interface with Socket.IO integration
+- Implemented role-based authentication and agent management flows
+- Contributed to REST API routes for contacts, conversations, and tasks
+
+</td>
+</tr>
+</table>
+
+</details>
+
 <br/>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
@@ -290,7 +379,7 @@ languages_spoken: [English, Hindi]
 
 <a href="https://github.com/Piyush3558">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Piyush3558&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&ring_color=58a6ff&count_private=true&include_all_commits=true" alt="Piyush's GitHub Stats"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Piyush3558&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" alt="Top Languages"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Piyush3558&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8&hide=python,batchfile" alt="Top Languages"/>
 </a>
 
 <br/><br/>
