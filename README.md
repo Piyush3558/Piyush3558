@@ -5,7 +5,7 @@
 
 <!-- TYPING SVG -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=100&lines=%F0%9F%9A%80+Building+Production-Ready+Web+Applications;%F0%9F%92%BB+Full+Stack+Developer+%7C+JavaScript+%7C+Node.js;%F0%9F%8E%AF+Focused+on+Clean+Code+%26+Engineering+Best+Practices" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=100&lines=%F0%9F%9A%80+Building+Production-Ready+Web+Applications;%F0%9F%92%BB+Full+Stack+Developer+%7C+JavaScript+%7C+Node.js;%F0%9F%8E%AF+Focused+on+Clean+Code" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -163,7 +163,7 @@ languages_spoken: [English, Hindi]
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Rocket.png" alt="Rocket" width="30" /> &nbsp;Featured Projects
+## Featured Projects
 
 <details open>
 <summary><b>🌦️ Chill Cast — Live Weather Update Application</b></summary>
@@ -338,7 +338,7 @@ languages_spoken: [English, Hindi]
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Trophy.png" alt="Trophy" width="30" /> &nbsp;Achievements
+## 🏆 &nbsp;Achievements
 
 <div align="center">
 
@@ -402,13 +402,13 @@ languages_spoken: [English, Hindi]
 > 📊 *Based on actual work across BOGECOM, B1G-CRM, and personal projects — not limited to public repo stats.*
 
 ```text
-JavaScript / Node.js   ██████████████████████████████░░░░   85%  ← Primary (BOGECOM + B1G-CRM)
-HTML / CSS             █████████████████████░░░░░░░░░░░░░   60%  ← Frontend (All Projects)
-Python                 ████████████░░░░░░░░░░░░░░░░░░░░░░   35%  ← INNOV8 + Scripting
-Kotlin                 ████████░░░░░░░░░░░░░░░░░░░░░░░░░░   25%  ← Chill Cast Weather App
-TypeScript             ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░   20%  ← Learning & Projects
-C / C++ / Java         ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░   20%  ← DSA & Academics
-SQL (MySQL)            █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   15%  ← B1G-CRM Database
+JavaScript / Node.js   [#################   ]  85%  ← Primary (BOGECOM + B1G-CRM)
+HTML / CSS             [############        ]  60%  ← Frontend (All Projects)
+Python                 [#######             ]  35%  ← INNOV8 + Scripting
+Kotlin                 [#####               ]  25%  ← Chill Cast Weather App
+TypeScript             [####                ]  20%  ← Learning & Projects
+C / C++ / Java         [####                ]  20%  ← DSA & Academics
+SQL (MySQL)            [###                 ]  15%  ← B1G-CRM Database
 ```
 
 </div>
@@ -416,6 +416,7 @@ SQL (MySQL)            █████░░░░░░░░░░░░░░
 <br/>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
 ## 🐍 &nbsp;Contribution Snake
@@ -435,7 +436,7 @@ SQL (MySQL)            █████░░░░░░░░░░░░░░
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bullseye.png" alt="Target" width="30" /> &nbsp;Current Focus
+## 🎯 &nbsp;Current Focus
 
 <div align="center">
 
