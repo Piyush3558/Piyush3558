@@ -379,7 +379,6 @@ languages_spoken: [English, Hindi]
 
 <a href="https://github.com/Piyush3558">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Piyush3558&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&ring_color=58a6ff&count_private=true&include_all_commits=true" alt="Piyush's GitHub Stats"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Piyush3558&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8&hide=python,batchfile" alt="Top Languages"/>
 </a>
 
 <br/><br/>
@@ -388,6 +387,36 @@ languages_spoken: [English, Hindi]
 <a href="https://github.com/Piyush3558">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Piyush3558&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=8b949e" alt="GitHub Streak"/>
 </a>
+
+<br/><br/>
+
+<!-- GITHUB TROPHIES -->
+<a href="https://github.com/Piyush3558">
+  <img src="https://github-profile-trophy.vercel.app/?username=Piyush3558&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=10" alt="GitHub Trophies"/>
+</a>
+
+</div>
+
+<br/>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+## 💻 &nbsp;Languages I Work With
+
+<div align="center">
+
+> 📊 *Based on actual work across BOGECOM, B1G-CRM, and personal projects — not limited to public repo stats.*
+
+```text
+JavaScript / Node.js   ██████████████████████████████░░░░   85%  ← Primary (BOGECOM + B1G-CRM)
+HTML / CSS             █████████████████████░░░░░░░░░░░░░   60%  ← Frontend (All Projects)
+Python                 ████████████░░░░░░░░░░░░░░░░░░░░░░   35%  ← INNOV8 + Scripting
+Kotlin                 ████████░░░░░░░░░░░░░░░░░░░░░░░░░░   25%  ← Chill Cast Weather App
+TypeScript             ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░   20%  ← Learning & Projects
+C / C++ / Java         ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░   20%  ← DSA & Academics
+SQL (MySQL)            █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   15%  ← B1G-CRM Database
+```
 
 </div>
 
@@ -401,23 +430,6 @@ languages_spoken: [English, Hindi]
 <div align="center">
 
 [![Piyush's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Piyush3558&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9&area=true&area_color=1f6feb&hide_border=true&custom_title=Contribution%20Activity)](https://github.com/Piyush3558)
-
-</div>
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-<!-- ═══════════════════════════════════════════════════════════════ -->
-## 🐍 &nbsp;Contribution Snake
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Piyush3558/Piyush3558/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Piyush3558/Piyush3558/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/Piyush3558/Piyush3558/output/github-snake-dark.svg" />
-</picture>
 
 </div>
 
@@ -490,4 +502,3 @@ languages_spoken: [English, Hindi]
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=120&section=footer" width="100%"/>
 
 </div>
-
