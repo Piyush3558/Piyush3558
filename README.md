@@ -388,13 +388,6 @@ languages_spoken: [English, Hindi]
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Piyush3558&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=8b949e" alt="GitHub Streak"/>
 </a>
 
-<br/><br/>
-
-<!-- GITHUB TROPHIES -->
-<a href="https://github.com/Piyush3558">
-  <img src="https://github-profile-trophy.vercel.app/?username=Piyush3558&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=10" alt="GitHub Trophies"/>
-</a>
-
 </div>
 
 <br/>
@@ -430,6 +423,23 @@ SQL (MySQL)            █████░░░░░░░░░░░░░░
 <div align="center">
 
 [![Piyush's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Piyush3558&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9&area=true&area_color=1f6feb&hide_border=true&custom_title=Contribution%20Activity)](https://github.com/Piyush3558)
+
+</div>
+
+<br/>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+## 🐍 &nbsp;Contribution Snake
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Piyush3558/Piyush3558/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Piyush3558/Piyush3558/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/Piyush3558/Piyush3558/output/github-snake-dark.svg" />
+</picture>
 
 </div>
 
