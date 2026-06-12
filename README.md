@@ -418,19 +418,6 @@ SQL (MySQL)            █████░░░░░░░░░░░░░░
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" alt="Graph" width="30" /> &nbsp;Contribution Activity Graph
-
-<div align="center">
-
-[![Piyush's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Piyush3558&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9&area=true&area_color=1f6feb&hide_border=true&custom_title=Contribution%20Activity)](https://github.com/Piyush3558)
-
-</div>
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-<!-- ═══════════════════════════════════════════════════════════════ -->
 ## 🐍 &nbsp;Contribution Snake
 
 <div align="center">
