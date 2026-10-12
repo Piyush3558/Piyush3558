@@ -359,6 +359,14 @@ languages_spoken: [English, Hindi]
 
 <div align="center">
 
+### 📊 All-Time Authored Commits: **411**
+
+*Audited across GitHub repositories as of October 12, 2026.*
+
+> This custom all-time authored-commit count may differ from GitHub's official contribution graph total.
+
+<br/>
+
 <a href="https://github.com/Piyush3558">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Piyush3558&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=e6edf3" alt="GitHub Stats"/>
 </a>
@@ -366,7 +374,7 @@ languages_spoken: [English, Hindi]
 <br/><br/>
 
 <a href="https://github.com/Piyush3558">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Piyush3558&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" alt="GitHub Streak"/>
+  <img src="https://streak-stats.demolab.com/?user=Piyush3558&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" alt="GitHub Streak"/>
 </a>
 
 </div>
