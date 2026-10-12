@@ -365,8 +365,17 @@ languages_spoken: [English, Hindi]
 
 <br/><br/>
 
+<a href="https://github.com/search?q=author%3APiyush3558&type=commits">
+  <img src="https://img.shields.io/badge/dynamic/json?color=58a6ff&label=All-time%20authored%20commits&query=%24.total_count&url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fcommits%3Fq%3Dauthor%3APiyush3558&logo=github&logoColor=white" alt="All-time authored commits"/>
+</a>
+
+<br/>
+<sub>Custom all-time authored-commit count from GitHub commit search data; not GitHub's official contribution total.</sub>
+
+<br/><br/>
+
 <a href="https://github.com/Piyush3558">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Piyush3558&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" alt="GitHub Streak"/>
+  <img src="https://streak-stats.demolab.com/?user=Piyush3558&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" alt="GitHub Streak"/>
 </a>
 
 </div>
