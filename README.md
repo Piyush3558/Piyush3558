@@ -373,6 +373,18 @@ languages_spoken: [English, Hindi]
 
 <br/><br/>
 
+<table>
+  <tr>
+    <td align="center">
+      <strong>📌 Custom Audit Metric</strong><br/>
+      <strong>All-Time Authored Commits: 411</strong><br/>
+      <sub>As of October 12, 2026 • This is an all-time authored-commit count from audit data and may differ from GitHub's official contribution total.</sub>
+    </td>
+  </tr>
+</table>
+
+<br/><br/>
+
 <a href="https://github.com/Piyush3558">
   <img src="https://streak-stats.demolab.com/?user=Piyush3558&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" alt="GitHub Streak"/>
 </a>
