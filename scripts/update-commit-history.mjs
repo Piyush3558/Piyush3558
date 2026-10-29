@@ -178,23 +178,6 @@ const escapeHtml = value => String(value)
 const repositoryUrl = nameWithOwner =>
     `https://github.com/${encodeURI(nameWithOwner)}`;
 
-const formatBytes = bytes => {
-    if (bytes < 1024) {
-        return `${bytes} B`;
-    }
-
-    const units = ["KB", "MB", "GB"];
-    let value = bytes / 1024;
-    let unitIndex = 0;
-
-    while (value >= 1024 && unitIndex < units.length - 1) {
-        value /= 1024;
-        unitIndex += 1;
-    }
-
-    return `${value.toFixed(value >= 10 ? 1 : 2)} ${units[unitIndex]}`;
-};
-
 const renderLanguageBlock = repositories => {
     const totals = new Map();
 
@@ -219,7 +202,7 @@ const renderLanguageBlock = repositories => {
 
         return `${language.name.padEnd(longestName)}  [${bar}]  ${share
             .toFixed(1)
-            .padStart(5)}%  ${formatBytes(language.bytes).padStart(9)}`;
+            .padStart(5)}%`;
     }).join("\n");
 
     return `${languageMarkerStart}
@@ -230,7 +213,7 @@ const renderLanguageBlock = repositories => {
 ${rows}
 \`\`\`
 
-<sub>Percentages represent detected repository code, not a skill rating. GitHub Linguist excludes files it classifies as vendored or generated.</sub>
+<sub>Percentages show each language's share of detected code across your projects.</sub>
 
 ${languageMarkerEnd}`;
 };

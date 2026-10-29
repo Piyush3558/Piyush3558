@@ -708,20 +708,20 @@ languages_spoken: [English, Hindi]
 > 📊 *Automatically synchronized daily from GitHub Linguist across 9 accessible public and private repositories.*
 
 ```text
-JavaScript  [##################  ]   91.1%    11.1 MB
-CSS         [#                   ]    4.3%   535.3 KB
-HTML        [#                   ]    1.9%   236.0 KB
-Python      [#                   ]    1.6%   199.0 KB
-TypeScript  [#                   ]    0.7%    84.7 KB
-PLpgSQL     [#                   ]    0.2%    26.0 KB
-PowerShell  [#                   ]    0.2%    23.1 KB
-Kotlin      [#                   ]    0.1%    6.63 KB
-Batchfile   [#                   ]    0.0%    2.18 KB
-Dockerfile  [#                   ]    0.0%    1.54 KB
-Shell       [#                   ]    0.0%       44 B
+JavaScript  [##################  ]   91.1%
+CSS         [#                   ]    4.3%
+HTML        [#                   ]    1.9%
+Python      [#                   ]    1.6%
+TypeScript  [#                   ]    0.7%
+PLpgSQL     [#                   ]    0.2%
+PowerShell  [#                   ]    0.2%
+Kotlin      [#                   ]    0.1%
+Batchfile   [#                   ]    0.0%
+Dockerfile  [#                   ]    0.0%
+Shell       [#                   ]    0.0%
 ```
 
-<sub>Percentages represent detected repository code, not a skill rating. GitHub Linguist excludes files it classifies as vendored or generated.</sub>
+<sub>Percentages show each language's share of detected code across your projects.</sub>
 
 <!-- LIVE_LANGUAGES:END -->
 
