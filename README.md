@@ -359,11 +359,89 @@ languages_spoken: [English, Hindi]
 
 <div align="center">
 
-### 📊 All-Time Authored Commits: **411**
+<!-- LIVE_COMMIT_HISTORY:START -->
 
-*Audited across GitHub repositories as of October 12, 2026.*
+<table>
+<tr>
+  <th>Primary-authored commits</th>
+  <th>Co-authored commits</th>
+  <th>Total credited commits</th>
+  <th>Repositories scanned</th>
+</tr>
+<tr>
+  <td align="center"><strong>243</strong></td>
+  <td align="center"><strong>14</strong></td>
+  <td align="center"><strong>257</strong></td>
+  <td align="center"><strong>7</strong></td>
+</tr>
+</table>
 
-> This custom all-time authored-commit count may differ from GitHub's official contribution graph total.
+<sub>Last synced Oct 29, 2026, 10:19 AM UTC · Public default branches · Updated automatically every hour</sub>
+
+<details open>
+<summary><strong>Recent co-authored history</strong></summary>
+<br/>
+<table>
+<tr>
+  <th>Date</th>
+  <th>Repository</th>
+  <th>Commit</th>
+  <th>Message</th>
+</tr>
+<tr>
+  <td>2026-10-12</td>
+  <td><a href="https://github.com/Piyush3558/Piyush3558">Piyush3558/Piyush3558</a></td>
+  <td><a href="https://github.com/Piyush3558/Piyush3558/commit/f85b0f50bc158e810155fc1ff5799f5996c7fa4c"><code>f85b0f5</code></a></td>
+  <td>Update GitHub analytics commit count note in README</td>
+</tr>
+<tr>
+  <td>2026-06-29</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM">UtkarshD18/B1G-CRM</a></td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM/commit/216141fc0b9fc187ff1140755a86545ea76027b2"><code>216141f</code></a></td>
+  <td>Release/phase4 hardening 20260626 (#7)</td>
+</tr>
+<tr>
+  <td>2026-04-19</td>
+  <td><a href="https://github.com/UtkarshD18/bogEcom">UtkarshD18/bogEcom</a></td>
+  <td><a href="https://github.com/UtkarshD18/bogEcom/commit/eb3c852e80c1bac86331cbfd1cefd6084e88c0e3"><code>eb3c852</code></a></td>
+  <td>api function</td>
+</tr>
+<tr>
+  <td>2026-03-24</td>
+  <td><a href="https://github.com/UtkarshD18/bogEcom">UtkarshD18/bogEcom</a></td>
+  <td><a href="https://github.com/UtkarshD18/bogEcom/commit/f6b92e0fdb52326813f7917a0ac4830693699c45"><code>f6b92e0</code></a></td>
+  <td>Demo live (#103)</td>
+</tr>
+<tr>
+  <td>2026-02-18</td>
+  <td><a href="https://github.com/UtkarshD18/bogEcom">UtkarshD18/bogEcom</a></td>
+  <td><a href="https://github.com/UtkarshD18/bogEcom/commit/163a496ce2248e79fcef16885f2332d696ab18f3"><code>163a496</code></a></td>
+  <td>Calculation error fix (#26)</td>
+</tr>
+<tr>
+  <td>2026-02-18</td>
+  <td><a href="https://github.com/UtkarshD18/bogEcom">UtkarshD18/bogEcom</a></td>
+  <td><a href="https://github.com/UtkarshD18/bogEcom/commit/bb4fb2d13c576ab8cef6f00a0f800783baa5f0b2"><code>bb4fb2d</code></a></td>
+  <td>Calculation error fix (#26)</td>
+</tr>
+<tr>
+  <td>2026-02-16</td>
+  <td><a href="https://github.com/UtkarshD18/bogEcom">UtkarshD18/bogEcom</a></td>
+  <td><a href="https://github.com/UtkarshD18/bogEcom/commit/4dfee0527b82ab9e916384be0307b3a7a5c5c9e5"><code>4dfee05</code></a></td>
+  <td>Feature/uifix (#19)</td>
+</tr>
+<tr>
+  <td>2026-02-16</td>
+  <td><a href="https://github.com/UtkarshD18/bogEcom">UtkarshD18/bogEcom</a></td>
+  <td><a href="https://github.com/UtkarshD18/bogEcom/commit/de58cf49b2a73fdc7a63be5f06f9b62245d9af6b"><code>de58cf4</code></a></td>
+  <td>Feature/uifix (#19)</td>
+</tr>
+</table>
+</details>
+
+<sub>GitHub identifies co-authors from each commit's <code>Co-authored-by</code> trailers. Private repository details are intentionally excluded.</sub>
+
+<!-- LIVE_COMMIT_HISTORY:END -->
 
 <br/>
 
