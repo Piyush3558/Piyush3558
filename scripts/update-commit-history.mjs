@@ -9,6 +9,8 @@ if (!token) {
 
 const markerStart = "<!-- LIVE_COMMIT_HISTORY:START -->";
 const markerEnd = "<!-- LIVE_COMMIT_HISTORY:END -->";
+const languageMarkerStart = "<!-- LIVE_LANGUAGES:START -->";
+const languageMarkerEnd = "<!-- LIVE_LANGUAGES:END -->";
 const readmePath = new URL("../README.md", import.meta.url);
 const auditedAllTimeCommitCount = 411;
 
@@ -56,6 +58,14 @@ const getRepositories = async () => {
                             nodes {
                                 nameWithOwner
                                 isPrivate
+                                languages(first: 100, orderBy: { field: SIZE, direction: DESC }) {
+                                    edges {
+                                        size
+                                        node {
+                                            name
+                                        }
+                                    }
+                                }
                                 defaultBranchRef {
                                     name
                                 }
@@ -166,6 +176,71 @@ const escapeHtml = value => String(value)
 
 const repositoryUrl = nameWithOwner =>
     `https://github.com/${encodeURI(nameWithOwner)}`;
+
+const formatBytes = bytes => {
+    if (bytes < 1024) {
+        return `${bytes} B`;
+    }
+
+    const units = ["KB", "MB", "GB"];
+    let value = bytes / 1024;
+    let unitIndex = 0;
+
+    while (value >= 1024 && unitIndex < units.length - 1) {
+        value /= 1024;
+        unitIndex += 1;
+    }
+
+    return `${value.toFixed(value >= 10 ? 1 : 2)} ${units[unitIndex]}`;
+};
+
+const renderLanguageBlock = repositories => {
+    const totals = new Map();
+
+    for (const repository of repositories) {
+        for (const language of repository.languages.edges) {
+            totals.set(
+                language.node.name,
+                (totals.get(language.node.name) || 0) + language.size
+            );
+        }
+    }
+
+    const languages = [...totals]
+        .map(([name, bytes]) => ({ name, bytes }))
+        .sort((left, right) => right.bytes - left.bytes);
+    const totalBytes = languages.reduce((sum, language) => sum + language.bytes, 0);
+    const rows = languages.map(language => {
+        const share = totalBytes ? (language.bytes / totalBytes) * 100 : 0;
+        const filled = Math.round(share / 5);
+        const bar = `${"█".repeat(filled)}${"░".repeat(20 - filled)}`;
+
+        return `<tr>
+  <td><strong>${escapeHtml(language.name)}</strong></td>
+  <td><code>${bar}</code></td>
+  <td align="right">${share.toFixed(1)}%</td>
+  <td align="right">${formatBytes(language.bytes)}</td>
+</tr>`;
+    }).join("\n");
+
+    return `${languageMarkerStart}
+
+> 📊 *Automatically calculated from GitHub Linguist across ${repositories.length} accessible public and private repositories.*
+
+<table>
+<tr>
+  <th>Language</th>
+  <th>Repository code share</th>
+  <th>Share</th>
+  <th>Detected code</th>
+</tr>
+${rows}
+</table>
+
+<sub>Percentages represent detected repository code, not a skill rating. GitHub Linguist excludes files it classifies as vendored or generated.</sub>
+
+${languageMarkerEnd}`;
+};
 
 const renderActivityBlock = ({ repositories, authored, coauthored }) => {
     const syncedAt = new Intl.DateTimeFormat("en", {
@@ -286,9 +361,18 @@ for (const repository of repositories) {
 const readme = await fs.readFile(readmePath, "utf8");
 const startIndex = readme.indexOf(markerStart);
 const endIndex = readme.indexOf(markerEnd);
+const languageStartIndex = readme.indexOf(languageMarkerStart);
+const languageEndIndex = readme.indexOf(languageMarkerEnd);
 
-if (startIndex === -1 || endIndex === -1 || endIndex < startIndex) {
-    throw new Error("README live commit-history markers are missing or invalid.");
+if (
+    startIndex === -1
+    || endIndex === -1
+    || endIndex < startIndex
+    || languageStartIndex === -1
+    || languageEndIndex === -1
+    || languageEndIndex < languageStartIndex
+) {
+    throw new Error("README synchronization markers are missing or invalid.");
 }
 
 const nextBlock = renderActivityBlock({ repositories, authored, coauthored });
@@ -300,22 +384,44 @@ const withoutSyncTime = block => block.replace(
     /<sub>Last synced .*? UTC · Public and private default branches ·/,
     "<sub>Last synced UTC · Public and private default branches ·"
 );
+const nextLanguageBlock = renderLanguageBlock(repositories);
+const currentLanguageBlock = readme.slice(
+    languageStartIndex,
+    languageEndIndex + languageMarkerEnd.length
+);
+const activityChanged = withoutSyncTime(currentBlock) !== withoutSyncTime(nextBlock);
+const languagesChanged = currentLanguageBlock !== nextLanguageBlock;
 
-if (withoutSyncTime(currentBlock) === withoutSyncTime(nextBlock)) {
+if (!activityChanged && !languagesChanged) {
     console.log(
         `Commit history is current: ${authored.length} authored and ${coauthored.length} co-authored commits across ${repositories.length} repositories.`
     );
     process.exit(0);
 }
 
-const nextReadme = [
-    readme.slice(0, startIndex),
-    nextBlock,
-    readme.slice(endIndex + markerEnd.length)
-].join("");
+let nextReadme = readme;
+
+if (activityChanged) {
+    nextReadme = [
+        nextReadme.slice(0, startIndex),
+        nextBlock,
+        nextReadme.slice(endIndex + markerEnd.length)
+    ].join("");
+}
+
+const nextLanguageStartIndex = nextReadme.indexOf(languageMarkerStart);
+const nextLanguageEndIndex = nextReadme.indexOf(languageMarkerEnd);
+
+if (languagesChanged) {
+    nextReadme = [
+        nextReadme.slice(0, nextLanguageStartIndex),
+        nextLanguageBlock,
+        nextReadme.slice(nextLanguageEndIndex + languageMarkerEnd.length)
+    ].join("");
+}
 
 await fs.writeFile(readmePath, nextReadme);
 
-console.log(
-    `Synced ${authored.length} authored and ${coauthored.length} co-authored commits across ${repositories.length} repositories.`
-);
+console.log(`Synced commit history and ${[...new Set(
+    repositories.flatMap(repository => repository.languages.edges.map(edge => edge.node.name))
+)].length} languages across ${repositories.length} repositories.`);

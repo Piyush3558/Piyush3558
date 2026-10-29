@@ -703,17 +703,88 @@ languages_spoken: [English, Hindi]
 
 <div align="center">
 
-> 📊 *Based on actual work across UFI Filters, BOGECOM, B1G-CRM, and personal projects — not limited to public repo stats.*
+<!-- LIVE_LANGUAGES:START -->
 
-```text
-JavaScript / Node.js   [#################   ]  85%  ← Primary Development
-HTML / CSS             [############        ]  60%  ← Frontend Development
-Python                 [#######             ]  35%  ← INNOV8 + Scripting
-Kotlin                 [#####               ]  25%  ← Chill Cast Weather App
-TypeScript             [####                ]  20%  ← Learning & Projects
-C / C++ / Java         [####                ]  20%  ← DSA & Academics
-SQL (MySQL)            [###                 ]  15%  ← B1G-CRM + Data Workflows
-```
+> 📊 *Automatically calculated from GitHub Linguist across 9 accessible public and private repositories.*
+
+<table>
+<tr>
+  <th>Language</th>
+  <th>Repository code share</th>
+  <th>Share</th>
+  <th>Detected code</th>
+</tr>
+<tr>
+  <td><strong>JavaScript</strong></td>
+  <td><code>██████████████████░░</code></td>
+  <td align="right">91.1%</td>
+  <td align="right">11.1 MB</td>
+</tr>
+<tr>
+  <td><strong>CSS</strong></td>
+  <td><code>█░░░░░░░░░░░░░░░░░░░</code></td>
+  <td align="right">4.3%</td>
+  <td align="right">535.3 KB</td>
+</tr>
+<tr>
+  <td><strong>HTML</strong></td>
+  <td><code>░░░░░░░░░░░░░░░░░░░░</code></td>
+  <td align="right">1.9%</td>
+  <td align="right">236.0 KB</td>
+</tr>
+<tr>
+  <td><strong>Python</strong></td>
+  <td><code>░░░░░░░░░░░░░░░░░░░░</code></td>
+  <td align="right">1.6%</td>
+  <td align="right">199.0 KB</td>
+</tr>
+<tr>
+  <td><strong>TypeScript</strong></td>
+  <td><code>░░░░░░░░░░░░░░░░░░░░</code></td>
+  <td align="right">0.7%</td>
+  <td align="right">84.7 KB</td>
+</tr>
+<tr>
+  <td><strong>PLpgSQL</strong></td>
+  <td><code>░░░░░░░░░░░░░░░░░░░░</code></td>
+  <td align="right">0.2%</td>
+  <td align="right">26.0 KB</td>
+</tr>
+<tr>
+  <td><strong>PowerShell</strong></td>
+  <td><code>░░░░░░░░░░░░░░░░░░░░</code></td>
+  <td align="right">0.2%</td>
+  <td align="right">23.1 KB</td>
+</tr>
+<tr>
+  <td><strong>Kotlin</strong></td>
+  <td><code>░░░░░░░░░░░░░░░░░░░░</code></td>
+  <td align="right">0.1%</td>
+  <td align="right">6.63 KB</td>
+</tr>
+<tr>
+  <td><strong>Batchfile</strong></td>
+  <td><code>░░░░░░░░░░░░░░░░░░░░</code></td>
+  <td align="right">0.0%</td>
+  <td align="right">2.18 KB</td>
+</tr>
+<tr>
+  <td><strong>Dockerfile</strong></td>
+  <td><code>░░░░░░░░░░░░░░░░░░░░</code></td>
+  <td align="right">0.0%</td>
+  <td align="right">1.54 KB</td>
+</tr>
+<tr>
+  <td><strong>Shell</strong></td>
+  <td><code>░░░░░░░░░░░░░░░░░░░░</code></td>
+  <td align="right">0.0%</td>
+  <td align="right">44 B</td>
+</tr>
+</table>
+
+<sub>Percentages represent detected repository code, not a skill rating. GitHub Linguist excludes files it classifies as vendored or generated.</sub>
+
+<!-- LIVE_LANGUAGES:END -->
 
 </div>
 
