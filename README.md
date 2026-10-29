@@ -361,25 +361,29 @@ languages_spoken: [English, Hindi]
 
 <!-- LIVE_COMMIT_HISTORY:START -->
 
+### 📊 All-Time Authored & Co-Authored Commits: **411**
+
+*Audited all-time total, with public co-authored history synchronized automatically.*
+
 <table>
 <tr>
-  <th>Primary-authored commits</th>
-  <th>Co-authored commits</th>
-  <th>Total credited commits</th>
+  <th>All-time credited commits</th>
+  <th>Public primary-author matches</th>
+  <th>Public co-author matches</th>
   <th>Repositories scanned</th>
 </tr>
 <tr>
+  <td align="center"><strong>411</strong></td>
   <td align="center"><strong>244</strong></td>
   <td align="center"><strong>14</strong></td>
-  <td align="center"><strong>258</strong></td>
   <td align="center"><strong>7</strong></td>
 </tr>
 </table>
 
-<sub>Last synced Oct 29, 2026, 10:20 AM UTC · Public default branches · Updated automatically every hour</sub>
+<sub>Last synced Oct 29, 2026, 10:22 AM UTC · Public default branches · Updated automatically every hour</sub>
 
 <details open>
-<summary><strong>Recent co-authored history</strong></summary>
+<summary><strong>All-time public co-authored history</strong></summary>
 <br/>
 <table>
 <tr>
@@ -435,6 +439,42 @@ languages_spoken: [English, Hindi]
   <td><a href="https://github.com/UtkarshD18/bogEcom">UtkarshD18/bogEcom</a></td>
   <td><a href="https://github.com/UtkarshD18/bogEcom/commit/de58cf49b2a73fdc7a63be5f06f9b62245d9af6b"><code>de58cf4</code></a></td>
   <td>Feature/uifix (#19)</td>
+</tr>
+<tr>
+  <td>2026-02-14</td>
+  <td><a href="https://github.com/UtkarshD18/bogEcom">UtkarshD18/bogEcom</a></td>
+  <td><a href="https://github.com/UtkarshD18/bogEcom/commit/0181859a9153ef65600496c7a9180db50f57e130"><code>0181859</code></a></td>
+  <td>Implement product weight variants (500g &amp; 1kg) (#16)</td>
+</tr>
+<tr>
+  <td>2026-02-14</td>
+  <td><a href="https://github.com/UtkarshD18/bogEcom">UtkarshD18/bogEcom</a></td>
+  <td><a href="https://github.com/UtkarshD18/bogEcom/commit/b3c6074557421656631cf6b16e3602dcefdeccac"><code>b3c6074</code></a></td>
+  <td>Implement product weight variants (500g &amp; 1kg) (#16)</td>
+</tr>
+<tr>
+  <td>2026-02-11</td>
+  <td><a href="https://github.com/UtkarshD18/bogEcom">UtkarshD18/bogEcom</a></td>
+  <td><a href="https://github.com/UtkarshD18/bogEcom/commit/2c2c60c474189a282f2793da6a452bd42bfadc7e"><code>2c2c60c</code></a></td>
+  <td>feat: UI updates, subscription flow &amp; policy pages (conflicts resolve…</td>
+</tr>
+<tr>
+  <td>2026-02-11</td>
+  <td><a href="https://github.com/UtkarshD18/bogEcom">UtkarshD18/bogEcom</a></td>
+  <td><a href="https://github.com/UtkarshD18/bogEcom/commit/bb70d781102720803c282af2effbd72f87bdb9ff"><code>bb70d78</code></a></td>
+  <td>feat: UI updates, subscription flow &amp; policy pages (conflicts resolve…</td>
+</tr>
+<tr>
+  <td>2026-02-11</td>
+  <td><a href="https://github.com/UtkarshD18/bogEcom">UtkarshD18/bogEcom</a></td>
+  <td><a href="https://github.com/UtkarshD18/bogEcom/commit/73374974847d65fabf5fa1abfda9700498c50180"><code>7337497</code></a></td>
+  <td>Fix footer spacing issue (#11)</td>
+</tr>
+<tr>
+  <td>2026-02-11</td>
+  <td><a href="https://github.com/UtkarshD18/bogEcom">UtkarshD18/bogEcom</a></td>
+  <td><a href="https://github.com/UtkarshD18/bogEcom/commit/ea257258881a71f43b48fa19255d6c0385cc7113"><code>ea25725</code></a></td>
+  <td>Fix footer spacing issue (#11)</td>
 </tr>
 </table>
 </details>

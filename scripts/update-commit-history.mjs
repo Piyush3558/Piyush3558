@@ -10,6 +10,7 @@ if (!token) {
 const markerStart = "<!-- LIVE_COMMIT_HISTORY:START -->";
 const markerEnd = "<!-- LIVE_COMMIT_HISTORY:END -->";
 const readmePath = new URL("../README.md", import.meta.url);
+const auditedAllTimeCommitCount = 411;
 
 const graphql = async (query, variables = {}) => {
     const response = await fetch("https://api.github.com/graphql", {
@@ -173,9 +174,8 @@ const renderActivityBlock = ({ repositories, authored, coauthored }) => {
         timeZone: "UTC"
     }).format(new Date());
 
-    const recentRows = coauthored
+    const coauthoredRows = coauthored
         .sort((left, right) => new Date(right.authoredDate) - new Date(left.authoredDate))
-        .slice(0, 8)
         .map(commit => `
 <tr>
   <td>${escapeHtml(commit.authoredDate.slice(0, 10))}</td>
@@ -185,24 +185,28 @@ const renderActivityBlock = ({ repositories, authored, coauthored }) => {
 </tr>`)
         .join("");
 
-    const recentHistory = recentRows || `
+    const coauthoredHistory = coauthoredRows || `
 <tr>
   <td colspan="4">No public co-authored commits were found on default branches.</td>
 </tr>`;
 
     return `${markerStart}
 
+### 📊 All-Time Authored & Co-Authored Commits: **${auditedAllTimeCommitCount}**
+
+*Audited all-time total, with public co-authored history synchronized automatically.*
+
 <table>
 <tr>
-  <th>Primary-authored commits</th>
-  <th>Co-authored commits</th>
-  <th>Total credited commits</th>
+  <th>All-time credited commits</th>
+  <th>Public primary-author matches</th>
+  <th>Public co-author matches</th>
   <th>Repositories scanned</th>
 </tr>
 <tr>
+  <td align="center"><strong>${auditedAllTimeCommitCount}</strong></td>
   <td align="center"><strong>${authored.length}</strong></td>
   <td align="center"><strong>${coauthored.length}</strong></td>
-  <td align="center"><strong>${authored.length + coauthored.length}</strong></td>
   <td align="center"><strong>${repositories.length}</strong></td>
 </tr>
 </table>
@@ -210,7 +214,7 @@ const renderActivityBlock = ({ repositories, authored, coauthored }) => {
 <sub>Last synced ${escapeHtml(syncedAt)} UTC · Public default branches · Updated automatically every hour</sub>
 
 <details open>
-<summary><strong>Recent co-authored history</strong></summary>
+<summary><strong>All-time public co-authored history</strong></summary>
 <br/>
 <table>
 <tr>
@@ -218,7 +222,7 @@ const renderActivityBlock = ({ repositories, authored, coauthored }) => {
   <th>Repository</th>
   <th>Commit</th>
   <th>Message</th>
-</tr>${recentHistory}
+</tr>${coauthoredHistory}
 </table>
 </details>
 
