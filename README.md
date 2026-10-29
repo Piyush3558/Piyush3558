@@ -374,13 +374,13 @@ languages_spoken: [English, Hindi]
 </tr>
 <tr>
   <td align="center"><strong>411</strong></td>
-  <td align="center"><strong>255</strong></td>
+  <td align="center"><strong>256</strong></td>
   <td align="center"><strong>14</strong></td>
   <td align="center"><strong>9</strong> (7 public + 2 private)</td>
 </tr>
 </table>
 
-<sub>Last synced Oct 29, 2026, 10:36 AM UTC · Public and private default branches · Updated automatically every hour</sub>
+<sub>Last synced Oct 29, 2026, 10:38 AM UTC · Public and private default branches · Updated automatically every hour</sub>
 
 <details open>
 <summary><strong>Latest authored and co-authored commit history</strong></summary>
@@ -392,6 +392,13 @@ languages_spoken: [English, Hindi]
   <th>Credit</th>
   <th>Commit</th>
   <th>Message</th>
+</tr>
+<tr>
+  <td>2026-10-29</td>
+  <td><a href="https://github.com/Piyush3558/Piyush3558">Piyush3558/Piyush3558</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/Piyush3558/Piyush3558/commit/8229872e78df1d56d5d71bbb286d59986e1131ee"><code>8229872</code></a></td>
+  <td>fix: show language percentages only</td>
 </tr>
 <tr>
   <td>2026-10-29</td>
@@ -665,13 +672,6 @@ languages_spoken: [English, Hindi]
   <td>Authored</td>
   <td><a href="https://github.com/Piyush3558/Piyush3558/commit/f270a7064ba7a2038fee9fa117aee022f2c7e7ea"><code>f270a70</code></a></td>
   <td>Update README with UFI Filters role and internship projects</td>
-</tr>
-<tr>
-  <td>2026-10-07</td>
-  <td><a href="https://github.com/Piyush3558/GST-Reconciliation">Piyush3558/GST-Reconciliation</a></td>
-  <td>Authored</td>
-  <td><a href="https://github.com/Piyush3558/GST-Reconciliation/commit/4f9d083bbb5fc83fda105cc28bc9cadd9ec514fe"><code>4f9d083</code></a></td>
-  <td>Merge pull request #2 from Piyush3558/demo</td>
 </tr>
 </table>
 </details>
