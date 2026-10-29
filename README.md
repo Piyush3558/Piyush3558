@@ -705,82 +705,21 @@ languages_spoken: [English, Hindi]
 
 <!-- LIVE_LANGUAGES:START -->
 
-> 📊 *Automatically calculated from GitHub Linguist across 9 accessible public and private repositories.*
+> 📊 *Automatically synchronized daily from GitHub Linguist across 9 accessible public and private repositories.*
 
-<table>
-<tr>
-  <th>Language</th>
-  <th>Repository code share</th>
-  <th>Share</th>
-  <th>Detected code</th>
-</tr>
-<tr>
-  <td><strong>JavaScript</strong></td>
-  <td><code>██████████████████░░</code></td>
-  <td align="right">91.1%</td>
-  <td align="right">11.1 MB</td>
-</tr>
-<tr>
-  <td><strong>CSS</strong></td>
-  <td><code>█░░░░░░░░░░░░░░░░░░░</code></td>
-  <td align="right">4.3%</td>
-  <td align="right">535.3 KB</td>
-</tr>
-<tr>
-  <td><strong>HTML</strong></td>
-  <td><code>░░░░░░░░░░░░░░░░░░░░</code></td>
-  <td align="right">1.9%</td>
-  <td align="right">236.0 KB</td>
-</tr>
-<tr>
-  <td><strong>Python</strong></td>
-  <td><code>░░░░░░░░░░░░░░░░░░░░</code></td>
-  <td align="right">1.6%</td>
-  <td align="right">199.0 KB</td>
-</tr>
-<tr>
-  <td><strong>TypeScript</strong></td>
-  <td><code>░░░░░░░░░░░░░░░░░░░░</code></td>
-  <td align="right">0.7%</td>
-  <td align="right">84.7 KB</td>
-</tr>
-<tr>
-  <td><strong>PLpgSQL</strong></td>
-  <td><code>░░░░░░░░░░░░░░░░░░░░</code></td>
-  <td align="right">0.2%</td>
-  <td align="right">26.0 KB</td>
-</tr>
-<tr>
-  <td><strong>PowerShell</strong></td>
-  <td><code>░░░░░░░░░░░░░░░░░░░░</code></td>
-  <td align="right">0.2%</td>
-  <td align="right">23.1 KB</td>
-</tr>
-<tr>
-  <td><strong>Kotlin</strong></td>
-  <td><code>░░░░░░░░░░░░░░░░░░░░</code></td>
-  <td align="right">0.1%</td>
-  <td align="right">6.63 KB</td>
-</tr>
-<tr>
-  <td><strong>Batchfile</strong></td>
-  <td><code>░░░░░░░░░░░░░░░░░░░░</code></td>
-  <td align="right">0.0%</td>
-  <td align="right">2.18 KB</td>
-</tr>
-<tr>
-  <td><strong>Dockerfile</strong></td>
-  <td><code>░░░░░░░░░░░░░░░░░░░░</code></td>
-  <td align="right">0.0%</td>
-  <td align="right">1.54 KB</td>
-</tr>
-<tr>
-  <td><strong>Shell</strong></td>
-  <td><code>░░░░░░░░░░░░░░░░░░░░</code></td>
-  <td align="right">0.0%</td>
-  <td align="right">44 B</td>
-</tr>
-</table>
+```text
+JavaScript  [##################  ]   91.1%    11.1 MB
+CSS         [#                   ]    4.3%   535.3 KB
+HTML        [#                   ]    1.9%   236.0 KB
+Python      [#                   ]    1.6%   199.0 KB
+TypeScript  [#                   ]    0.7%    84.7 KB
+PLpgSQL     [#                   ]    0.2%    26.0 KB
+PowerShell  [#                   ]    0.2%    23.1 KB
+Kotlin      [#                   ]    0.1%    6.63 KB
+Batchfile   [#                   ]    0.0%    2.18 KB
+Dockerfile  [#                   ]    0.0%    1.54 KB
+Shell       [#                   ]    0.0%       44 B
+```
 
 <sub>Percentages represent detected repository code, not a skill rating. GitHub Linguist excludes files it classifies as vendored or generated.</sub>
 

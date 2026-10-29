@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: profile-commit-history
+  group: profile-readme-sync
   cancel-in-progress: false
 
 jobs:
@@ -31,6 +31,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PROFILE_STATS_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
           GITHUB_USERNAME: ${{ github.repository_owner }}
+          SYNC_LANGUAGES: "false"
         run: node scripts/update-commit-history.mjs
 
       - name: Commit updated README

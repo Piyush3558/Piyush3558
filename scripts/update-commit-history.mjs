@@ -2,6 +2,7 @@ import fs from "node:fs/promises";
 
 const username = process.env.GITHUB_USERNAME || "Piyush3558";
 const token = process.env.PROFILE_STATS_TOKEN || process.env.GITHUB_TOKEN;
+const syncLanguages = process.env.SYNC_LANGUAGES !== "false";
 
 if (!token) {
     throw new Error("GITHUB_TOKEN or PROFILE_STATS_TOKEN is required.");
@@ -210,32 +211,24 @@ const renderLanguageBlock = repositories => {
         .map(([name, bytes]) => ({ name, bytes }))
         .sort((left, right) => right.bytes - left.bytes);
     const totalBytes = languages.reduce((sum, language) => sum + language.bytes, 0);
+    const longestName = Math.max(...languages.map(language => language.name.length));
     const rows = languages.map(language => {
         const share = totalBytes ? (language.bytes / totalBytes) * 100 : 0;
-        const filled = Math.round(share / 5);
-        const bar = `${"█".repeat(filled)}${"░".repeat(20 - filled)}`;
+        const filled = Math.max(1, Math.round(share / 5));
+        const bar = `${"#".repeat(filled)}${" ".repeat(20 - filled)}`;
 
-        return `<tr>
-  <td><strong>${escapeHtml(language.name)}</strong></td>
-  <td><code>${bar}</code></td>
-  <td align="right">${share.toFixed(1)}%</td>
-  <td align="right">${formatBytes(language.bytes)}</td>
-</tr>`;
+        return `${language.name.padEnd(longestName)}  [${bar}]  ${share
+            .toFixed(1)
+            .padStart(5)}%  ${formatBytes(language.bytes).padStart(9)}`;
     }).join("\n");
 
     return `${languageMarkerStart}
 
-> 📊 *Automatically calculated from GitHub Linguist across ${repositories.length} accessible public and private repositories.*
+> 📊 *Automatically synchronized daily from GitHub Linguist across ${repositories.length} accessible public and private repositories.*
 
-<table>
-<tr>
-  <th>Language</th>
-  <th>Repository code share</th>
-  <th>Share</th>
-  <th>Detected code</th>
-</tr>
+\`\`\`text
 ${rows}
-</table>
+\`\`\`
 
 <sub>Percentages represent detected repository code, not a skill rating. GitHub Linguist excludes files it classifies as vendored or generated.</sub>
 
@@ -384,13 +377,15 @@ const withoutSyncTime = block => block.replace(
     /<sub>Last synced .*? UTC · Public and private default branches ·/,
     "<sub>Last synced UTC · Public and private default branches ·"
 );
-const nextLanguageBlock = renderLanguageBlock(repositories);
 const currentLanguageBlock = readme.slice(
     languageStartIndex,
     languageEndIndex + languageMarkerEnd.length
 );
+const nextLanguageBlock = syncLanguages
+    ? renderLanguageBlock(repositories)
+    : currentLanguageBlock;
 const activityChanged = withoutSyncTime(currentBlock) !== withoutSyncTime(nextBlock);
-const languagesChanged = currentLanguageBlock !== nextLanguageBlock;
+const languagesChanged = syncLanguages && currentLanguageBlock !== nextLanguageBlock;
 
 if (!activityChanged && !languagesChanged) {
     console.log(
