@@ -37,7 +37,7 @@ const graphql = async (query, variables = {}) => {
     return payload.data;
 };
 
-const getPublicRepositories = async () => {
+const getRepositories = async () => {
     const repositories = new Map();
     let cursor = null;
 
@@ -78,7 +78,7 @@ const getPublicRepositories = async () => {
         }
 
         for (const repository of connection.nodes) {
-            if (!repository.isPrivate && repository.defaultBranchRef) {
+            if (repository.defaultBranchRef) {
                 repositories.set(repository.nameWithOwner, repository);
             }
         }
@@ -174,64 +174,79 @@ const renderActivityBlock = ({ repositories, authored, coauthored }) => {
         timeZone: "UTC"
     }).format(new Date());
 
-    const coauthoredRows = coauthored
+    const publicRepositories = repositories.filter(repository => !repository.isPrivate);
+    const privateRepositories = repositories.filter(repository => repository.isPrivate);
+    const activity = [
+        ...authored.map(commit => ({ ...commit, credit: "Authored" })),
+        ...coauthored.map(commit => ({ ...commit, credit: "Co-authored" }))
+    ];
+    const activityRows = activity
         .sort((left, right) => new Date(right.authoredDate) - new Date(left.authoredDate))
+        .slice(0, 40)
         .map(commit => `
 <tr>
   <td>${escapeHtml(commit.authoredDate.slice(0, 10))}</td>
-  <td><a href="${repositoryUrl(commit.repository)}">${escapeHtml(commit.repository)}</a></td>
-  <td><a href="${escapeHtml(commit.url)}"><code>${escapeHtml(commit.abbreviatedOid)}</code></a></td>
-  <td>${escapeHtml(commit.messageHeadline)}</td>
+  <td>${commit.isPrivate
+        ? "🔒 Private repository"
+        : `<a href="${repositoryUrl(commit.repository)}">${escapeHtml(commit.repository)}</a>`}</td>
+  <td>${escapeHtml(commit.credit)}</td>
+  <td>${commit.isPrivate
+        ? "Private commit"
+        : `<a href="${escapeHtml(commit.url)}"><code>${escapeHtml(commit.abbreviatedOid)}</code></a>`}</td>
+  <td>${commit.isPrivate
+        ? "Private contribution details hidden"
+        : escapeHtml(commit.messageHeadline)}</td>
 </tr>`)
         .join("");
 
-    const coauthoredHistory = coauthoredRows || `
+    const commitHistory = activityRows || `
 <tr>
-  <td colspan="4">No public co-authored commits were found on default branches.</td>
+  <td colspan="5">No authored or co-authored commits were found on accessible default branches.</td>
 </tr>`;
 
     return `${markerStart}
 
 ### 📊 All-Time Authored & Co-Authored Commits: **${auditedAllTimeCommitCount}**
 
-*Audited all-time total, with public co-authored history synchronized automatically.*
+*Audited all-time total, with authored and co-authored activity synchronized automatically.*
 
 <table>
 <tr>
   <th>All-time credited commits</th>
-  <th>Public primary-author matches</th>
-  <th>Public co-author matches</th>
+  <th>Primary-author matches</th>
+  <th>Co-author matches</th>
   <th>Repositories scanned</th>
 </tr>
 <tr>
   <td align="center"><strong>${auditedAllTimeCommitCount}</strong></td>
   <td align="center"><strong>${authored.length}</strong></td>
   <td align="center"><strong>${coauthored.length}</strong></td>
-  <td align="center"><strong>${repositories.length}</strong></td>
+  <td align="center"><strong>${repositories.length}</strong> (${publicRepositories.length} public + ${privateRepositories.length} private)</td>
 </tr>
 </table>
 
-<sub>Last synced ${escapeHtml(syncedAt)} UTC · Public default branches · Updated automatically every hour</sub>
+<sub>Last synced ${escapeHtml(syncedAt)} UTC · Public and private default branches · Updated automatically every hour</sub>
 
 <details open>
-<summary><strong>All-time public co-authored history</strong></summary>
+<summary><strong>Latest authored and co-authored commit history</strong></summary>
 <br/>
 <table>
 <tr>
   <th>Date</th>
   <th>Repository</th>
+  <th>Credit</th>
   <th>Commit</th>
   <th>Message</th>
-</tr>${coauthoredHistory}
+</tr>${commitHistory}
 </table>
 </details>
 
-<sub>GitHub identifies co-authors from each commit's <code>Co-authored-by</code> trailers. Private repository details are intentionally excluded.</sub>
+<sub>Scans all accessible default-branch history. Private contributions are counted, while their repository names, commit IDs and messages stay hidden because this README is public.</sub>
 
 ${markerEnd}`;
 };
 
-const repositories = await getPublicRepositories();
+const repositories = await getRepositories();
 const usernameLower = username.toLowerCase();
 const authored = [];
 const coauthored = [];
@@ -256,7 +271,8 @@ for (const repository of repositories) {
 
         const activity = {
             ...commit,
-            repository: repository.nameWithOwner
+            repository: repository.nameWithOwner,
+            isPrivate: repository.isPrivate
         };
 
         if (primaryLogin === usernameLower) {
@@ -281,13 +297,13 @@ const currentBlock = readme.slice(
     endIndex + markerEnd.length
 );
 const withoutSyncTime = block => block.replace(
-    /<sub>Last synced .*? UTC · Public default branches ·/,
-    "<sub>Last synced UTC · Public default branches ·"
+    /<sub>Last synced .*? UTC · Public and private default branches ·/,
+    "<sub>Last synced UTC · Public and private default branches ·"
 );
 
 if (withoutSyncTime(currentBlock) === withoutSyncTime(nextBlock)) {
     console.log(
-        `Commit history is current: ${authored.length} authored and ${coauthored.length} co-authored commits across ${repositories.length} public repositories.`
+        `Commit history is current: ${authored.length} authored and ${coauthored.length} co-authored commits across ${repositories.length} repositories.`
     );
     process.exit(0);
 }
@@ -301,5 +317,5 @@ const nextReadme = [
 await fs.writeFile(readmePath, nextReadme);
 
 console.log(
-    `Synced ${authored.length} authored and ${coauthored.length} co-authored commits across ${repositories.length} public repositories.`
+    `Synced ${authored.length} authored and ${coauthored.length} co-authored commits across ${repositories.length} repositories.`
 );

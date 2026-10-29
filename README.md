@@ -363,123 +363,320 @@ languages_spoken: [English, Hindi]
 
 ### 📊 All-Time Authored & Co-Authored Commits: **411**
 
-*Audited all-time total, with public co-authored history synchronized automatically.*
+*Audited all-time total, with authored and co-authored activity synchronized automatically.*
 
 <table>
 <tr>
   <th>All-time credited commits</th>
-  <th>Public primary-author matches</th>
-  <th>Public co-author matches</th>
+  <th>Primary-author matches</th>
+  <th>Co-author matches</th>
   <th>Repositories scanned</th>
 </tr>
 <tr>
   <td align="center"><strong>411</strong></td>
-  <td align="center"><strong>245</strong></td>
+  <td align="center"><strong>252</strong></td>
   <td align="center"><strong>14</strong></td>
-  <td align="center"><strong>7</strong></td>
+  <td align="center"><strong>9</strong> (7 public + 2 private)</td>
 </tr>
 </table>
 
-<sub>Last synced Oct 29, 2026, 10:22 AM UTC · Public default branches · Updated automatically every hour</sub>
+<sub>Last synced Oct 29, 2026, 10:25 AM UTC · Public and private default branches · Updated automatically every hour</sub>
 
 <details open>
-<summary><strong>All-time public co-authored history</strong></summary>
+<summary><strong>Latest authored and co-authored commit history</strong></summary>
 <br/>
 <table>
 <tr>
   <th>Date</th>
   <th>Repository</th>
+  <th>Credit</th>
   <th>Commit</th>
   <th>Message</th>
 </tr>
 <tr>
+  <td>2026-10-29</td>
+  <td><a href="https://github.com/Piyush3558/Piyush3558">Piyush3558/Piyush3558</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/Piyush3558/Piyush3558/commit/a7588027db48cb3c24aadc3312cab212f007c2e0"><code>a758802</code></a></td>
+  <td>fix: restore all-time commit total</td>
+</tr>
+<tr>
+  <td>2026-10-29</td>
+  <td><a href="https://github.com/Piyush3558/Piyush3558">Piyush3558/Piyush3558</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/Piyush3558/Piyush3558/commit/91088e2a7a50f5973e256c0b60e7ff44ecf82549"><code>91088e2</code></a></td>
+  <td>feat: sync profile co-authored history</td>
+</tr>
+<tr>
+  <td>2026-10-29</td>
+  <td><a href="https://github.com/Piyush3558/GATE-ENTRY-SYSTEM">Piyush3558/GATE-ENTRY-SYSTEM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/Piyush3558/GATE-ENTRY-SYSTEM/commit/7f08ef7e52bee88b2caaacc1039a35d2a21f6b5b"><code>7f08ef7</code></a></td>
+  <td>Refresh project README</td>
+</tr>
+<tr>
+  <td>2026-10-29</td>
+  <td><a href="https://github.com/Piyush3558/GATE-ENTRY-SYSTEM">Piyush3558/GATE-ENTRY-SYSTEM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/Piyush3558/GATE-ENTRY-SYSTEM/commit/db82a9cc4976135fa49632e18a2226f381fd95a6"><code>db82a9c</code></a></td>
+  <td>Add UFI Filters favicon</td>
+</tr>
+<tr>
+  <td>2026-10-29</td>
+  <td><a href="https://github.com/Piyush3558/GATE-ENTRY-SYSTEM">Piyush3558/GATE-ENTRY-SYSTEM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/Piyush3558/GATE-ENTRY-SYSTEM/commit/fd2be1446707a0b1ef32197f8681251232420445"><code>fd2be14</code></a></td>
+  <td>Sync Render secrets from GitHub Actions</td>
+</tr>
+<tr>
+  <td>2026-10-29</td>
+  <td><a href="https://github.com/Piyush3558/GATE-ENTRY-SYSTEM">Piyush3558/GATE-ENTRY-SYSTEM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/Piyush3558/GATE-ENTRY-SYSTEM/commit/c20f88ecb5285ab83d69dd45946f168caffacd4a"><code>c20f88e</code></a></td>
+  <td>Allow gated manual deployments</td>
+</tr>
+<tr>
+  <td>2026-10-29</td>
+  <td><a href="https://github.com/Piyush3558/GATE-ENTRY-SYSTEM">Piyush3558/GATE-ENTRY-SYSTEM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/Piyush3558/GATE-ENTRY-SYSTEM/commit/44df26893d626cf207d9878dea2fe19576a5627d"><code>44df268</code></a></td>
+  <td>Fix Render monorepo backend startup</td>
+</tr>
+<tr>
+  <td>2026-10-29</td>
+  <td><a href="https://github.com/Piyush3558/GATE-ENTRY-SYSTEM">Piyush3558/GATE-ENTRY-SYSTEM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/Piyush3558/GATE-ENTRY-SYSTEM/commit/a52beea8c17303a917338dfa4200c84984b78d6a"><code>a52beea</code></a></td>
+  <td>Add secure frontend and backend deployment pipelines</td>
+</tr>
+<tr>
+  <td>2026-10-28</td>
+  <td>🔒 Private repository</td>
+  <td>Authored</td>
+  <td>Private commit</td>
+  <td>Private contribution details hidden</td>
+</tr>
+<tr>
+  <td>2026-10-27</td>
+  <td><a href="https://github.com/Piyush3558/GATE-ENTRY-SYSTEM">Piyush3558/GATE-ENTRY-SYSTEM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/Piyush3558/GATE-ENTRY-SYSTEM/commit/53df854ee3c6f58031e2a32765f0e1d306db6e73"><code>53df854</code></a></td>
+  <td>Update gate entry system features and configurations</td>
+</tr>
+<tr>
+  <td>2026-10-27</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM">UtkarshD18/B1G-CRM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM/commit/df595ffd70a169cdfdd4079c7e68257ae0016ffb"><code>df595ff</code></a></td>
+  <td>Fix user portal dark theme contrast and button visibility</td>
+</tr>
+<tr>
+  <td>2026-10-26</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM">UtkarshD18/B1G-CRM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM/commit/fbe280f96dd36167193a1eff0fee5ca3f94739a8"><code>fbe280f</code></a></td>
+  <td>Harden Razorpay live payments and add webhooks</td>
+</tr>
+<tr>
+  <td>2026-10-26</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM">UtkarshD18/B1G-CRM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM/commit/6996e65e101be360e99c48aa6f0347aa40754099"><code>6996e65</code></a></td>
+  <td>feat(payments): integrate Razorpay standard checkout</td>
+</tr>
+<tr>
+  <td>2026-10-26</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM">UtkarshD18/B1G-CRM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM/commit/5e3885a8df9ac3b7bd2171e4d968c640e9d70d9d"><code>5e3885a</code></a></td>
+  <td>docs: add hosted project URL to README</td>
+</tr>
+<tr>
+  <td>2026-10-25</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM">UtkarshD18/B1G-CRM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM/commit/fb867a2f61e2d728c07e7da2aa41cfb727d2f3f6"><code>fb867a2</code></a></td>
+  <td>feat(branding): add OMNI CRM infinity-chat logo to homepage header an…</td>
+</tr>
+<tr>
+  <td>2026-10-25</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM">UtkarshD18/B1G-CRM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM/commit/633cc8b1740000e20ae97911238fd367002cdd43"><code>633cc8b</code></a></td>
+  <td>feat(branding): add light, dark, and adaptive SVG/PNG favicons for OM…</td>
+</tr>
+<tr>
+  <td>2026-10-25</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM">UtkarshD18/B1G-CRM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM/commit/c66846f627414f7117486674df0a57a1035b596b"><code>c66846f</code></a></td>
+  <td>Merge branch &#39;demo-live&#39; into main: rename project to OMNI CRM</td>
+</tr>
+<tr>
+  <td>2026-10-25</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM">UtkarshD18/B1G-CRM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM/commit/69c40a79e7849d5ce5ae18b439d471c4dab5ca7b"><code>69c40a7</code></a></td>
+  <td>feat(branding): rename project to OMNI CRM and update branding across…</td>
+</tr>
+<tr>
+  <td>2026-10-24</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM">UtkarshD18/B1G-CRM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM/commit/82f5d338d9311c9d53b604c6ae002d4a54608e69"><code>82f5d33</code></a></td>
+  <td>Support administrator-only password resets without profile changes</td>
+</tr>
+<tr>
+  <td>2026-10-24</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM">UtkarshD18/B1G-CRM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM/commit/39f60093dd451bf46ef8d4d543ba7540e3d08031"><code>39f6009</code></a></td>
+  <td>Clarify legacy migration records in deployment guide [skip ci]</td>
+</tr>
+<tr>
+  <td>2026-10-24</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM">UtkarshD18/B1G-CRM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM/commit/06a537884c2b0a052acd49d1195adac0b6f40596"><code>06a5378</code></a></td>
+  <td>Allow initial setup to replace unchanged legacy demo administrator</td>
+</tr>
+<tr>
+  <td>2026-10-24</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM">UtkarshD18/B1G-CRM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM/commit/01a5d342c627097f2e33bf72b3a9e7ae0c5f13a5"><code>01a5d34</code></a></td>
+  <td>Provision initial administrator securely and verify PostgreSQL and CO…</td>
+</tr>
+<tr>
+  <td>2026-10-24</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM">UtkarshD18/B1G-CRM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM/commit/db0c960ede87be73ad0f7ab39f5992159013ab24"><code>db0c960</code></a></td>
+  <td>Fix cached sign-in routing and hide HTML API error responses</td>
+</tr>
+<tr>
+  <td>2026-10-24</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM">UtkarshD18/B1G-CRM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM/commit/8637014c8341808a6ad008a741b1c5aa0b153165"><code>8637014</code></a></td>
+  <td>Route widget and webhook URLs to hosted backend and document deployment</td>
+</tr>
+<tr>
+  <td>2026-10-24</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM">UtkarshD18/B1G-CRM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM/commit/70347cf816391985c55ac610041844cce76fb35e"><code>70347cf</code></a></td>
+  <td>Install required build tools on Render</td>
+</tr>
+<tr>
+  <td>2026-10-24</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM">UtkarshD18/B1G-CRM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM/commit/cf0b10d54e845eefa2d4cf51daf97506b29db0e1"><code>cf0b10d</code></a></td>
+  <td>Configure backend public URLs and database-backed CI</td>
+</tr>
+<tr>
+  <td>2026-10-24</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM">UtkarshD18/B1G-CRM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM/commit/58fdec8532572db5457aeb7b4d38370c11811050"><code>58fdec8</code></a></td>
+  <td>chore(deploy): allow render service branch to default to blueprint br…</td>
+</tr>
+<tr>
+  <td>2026-10-24</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM">UtkarshD18/B1G-CRM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM/commit/ebef4a7f852cb2b3102d231c68a6f1e5829e9ae9"><code>ebef4a7</code></a></td>
+  <td>Configure tested Firebase and Render deployment pipeline</td>
+</tr>
+<tr>
+  <td>2026-10-24</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM">UtkarshD18/B1G-CRM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM/commit/e3e4cf2b0e6516c95eb687be08d4b1ef2574235a"><code>e3e4cf2</code></a></td>
+  <td>Merge pull request #26 from UtkarshD18/demo-live</td>
+</tr>
+<tr>
+  <td>2026-10-22</td>
+  <td>🔒 Private repository</td>
+  <td>Authored</td>
+  <td>Private commit</td>
+  <td>Private contribution details hidden</td>
+</tr>
+<tr>
   <td>2026-10-12</td>
   <td><a href="https://github.com/Piyush3558/Piyush3558">Piyush3558/Piyush3558</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/Piyush3558/Piyush3558/commit/d422e725197f2e676849a4b98d8f79a41864a830"><code>d422e72</code></a></td>
+  <td>Merge pull request #3 from Piyush3558/copilot/update-readme-only</td>
+</tr>
+<tr>
+  <td>2026-10-12</td>
+  <td><a href="https://github.com/Piyush3558/Piyush3558">Piyush3558/Piyush3558</a></td>
+  <td>Co-authored</td>
   <td><a href="https://github.com/Piyush3558/Piyush3558/commit/f85b0f50bc158e810155fc1ff5799f5996c7fa4c"><code>f85b0f5</code></a></td>
   <td>Update GitHub analytics commit count note in README</td>
 </tr>
 <tr>
-  <td>2026-06-29</td>
-  <td><a href="https://github.com/UtkarshD18/B1G-CRM">UtkarshD18/B1G-CRM</a></td>
-  <td><a href="https://github.com/UtkarshD18/B1G-CRM/commit/216141fc0b9fc187ff1140755a86545ea76027b2"><code>216141f</code></a></td>
-  <td>Release/phase4 hardening 20260626 (#7)</td>
+  <td>2026-10-08</td>
+  <td><a href="https://github.com/Piyush3558/GST-Reconciliation">Piyush3558/GST-Reconciliation</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/Piyush3558/GST-Reconciliation/commit/f0c7391e2d26720f27761a94b1f90497f36bec5e"><code>f0c7391</code></a></td>
+  <td>Demo live (#4)</td>
 </tr>
 <tr>
-  <td>2026-04-19</td>
-  <td><a href="https://github.com/UtkarshD18/bogEcom">UtkarshD18/bogEcom</a></td>
-  <td><a href="https://github.com/UtkarshD18/bogEcom/commit/eb3c852e80c1bac86331cbfd1cefd6084e88c0e3"><code>eb3c852</code></a></td>
-  <td>api function</td>
+  <td>2026-10-08</td>
+  <td><a href="https://github.com/Piyush3558/GST-Reconciliation">Piyush3558/GST-Reconciliation</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/Piyush3558/GST-Reconciliation/commit/87cadaf48f337cd7e316da78fe6e1f13d2f49ed0"><code>87cadaf</code></a></td>
+  <td>boomers update (#3)</td>
 </tr>
 <tr>
-  <td>2026-03-24</td>
-  <td><a href="https://github.com/UtkarshD18/bogEcom">UtkarshD18/bogEcom</a></td>
-  <td><a href="https://github.com/UtkarshD18/bogEcom/commit/f6b92e0fdb52326813f7917a0ac4830693699c45"><code>f6b92e0</code></a></td>
-  <td>Demo live (#103)</td>
+  <td>2026-10-07</td>
+  <td><a href="https://github.com/Piyush3558/Piyush3558">Piyush3558/Piyush3558</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/Piyush3558/Piyush3558/commit/01091af4e8e4e67119ef6f10c0592307a0a43e9f"><code>01091af</code></a></td>
+  <td>Restore full profile README and retain UFI Filters updates</td>
 </tr>
 <tr>
-  <td>2026-02-18</td>
-  <td><a href="https://github.com/UtkarshD18/bogEcom">UtkarshD18/bogEcom</a></td>
-  <td><a href="https://github.com/UtkarshD18/bogEcom/commit/163a496ce2248e79fcef16885f2332d696ab18f3"><code>163a496</code></a></td>
-  <td>Calculation error fix (#26)</td>
+  <td>2026-10-07</td>
+  <td><a href="https://github.com/Piyush3558/Piyush3558">Piyush3558/Piyush3558</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/Piyush3558/Piyush3558/commit/f270a7064ba7a2038fee9fa117aee022f2c7e7ea"><code>f270a70</code></a></td>
+  <td>Update README with UFI Filters role and internship projects</td>
 </tr>
 <tr>
-  <td>2026-02-18</td>
-  <td><a href="https://github.com/UtkarshD18/bogEcom">UtkarshD18/bogEcom</a></td>
-  <td><a href="https://github.com/UtkarshD18/bogEcom/commit/bb4fb2d13c576ab8cef6f00a0f800783baa5f0b2"><code>bb4fb2d</code></a></td>
-  <td>Calculation error fix (#26)</td>
+  <td>2026-10-07</td>
+  <td><a href="https://github.com/Piyush3558/GST-Reconciliation">Piyush3558/GST-Reconciliation</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/Piyush3558/GST-Reconciliation/commit/4f9d083bbb5fc83fda105cc28bc9cadd9ec514fe"><code>4f9d083</code></a></td>
+  <td>Merge pull request #2 from Piyush3558/demo</td>
 </tr>
 <tr>
-  <td>2026-02-16</td>
-  <td><a href="https://github.com/UtkarshD18/bogEcom">UtkarshD18/bogEcom</a></td>
-  <td><a href="https://github.com/UtkarshD18/bogEcom/commit/4dfee0527b82ab9e916384be0307b3a7a5c5c9e5"><code>4dfee05</code></a></td>
-  <td>Feature/uifix (#19)</td>
+  <td>2026-10-07</td>
+  <td><a href="https://github.com/Piyush3558/GST-Reconciliation">Piyush3558/GST-Reconciliation</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/Piyush3558/GST-Reconciliation/commit/718a0a8378df3bd1924dc9fec6fd22630344003e"><code>718a0a8</code></a></td>
+  <td>Merge pull request #1 from Piyush3558/demo</td>
 </tr>
 <tr>
-  <td>2026-02-16</td>
-  <td><a href="https://github.com/UtkarshD18/bogEcom">UtkarshD18/bogEcom</a></td>
-  <td><a href="https://github.com/UtkarshD18/bogEcom/commit/de58cf49b2a73fdc7a63be5f06f9b62245d9af6b"><code>de58cf4</code></a></td>
-  <td>Feature/uifix (#19)</td>
+  <td>2026-10-07</td>
+  <td><a href="https://github.com/Piyush3558/GST-Reconciliation">Piyush3558/GST-Reconciliation</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/Piyush3558/GST-Reconciliation/commit/fc7fde33dab57631c214897830e5340f01518895"><code>fc7fde3</code></a></td>
+  <td>Add GST reconciliation upload portal and Excel export</td>
 </tr>
 <tr>
-  <td>2026-02-14</td>
-  <td><a href="https://github.com/UtkarshD18/bogEcom">UtkarshD18/bogEcom</a></td>
-  <td><a href="https://github.com/UtkarshD18/bogEcom/commit/0181859a9153ef65600496c7a9180db50f57e130"><code>0181859</code></a></td>
-  <td>Implement product weight variants (500g &amp; 1kg) (#16)</td>
-</tr>
-<tr>
-  <td>2026-02-14</td>
-  <td><a href="https://github.com/UtkarshD18/bogEcom">UtkarshD18/bogEcom</a></td>
-  <td><a href="https://github.com/UtkarshD18/bogEcom/commit/b3c6074557421656631cf6b16e3602dcefdeccac"><code>b3c6074</code></a></td>
-  <td>Implement product weight variants (500g &amp; 1kg) (#16)</td>
-</tr>
-<tr>
-  <td>2026-02-11</td>
-  <td><a href="https://github.com/UtkarshD18/bogEcom">UtkarshD18/bogEcom</a></td>
-  <td><a href="https://github.com/UtkarshD18/bogEcom/commit/2c2c60c474189a282f2793da6a452bd42bfadc7e"><code>2c2c60c</code></a></td>
-  <td>feat: UI updates, subscription flow &amp; policy pages (conflicts resolve…</td>
-</tr>
-<tr>
-  <td>2026-02-11</td>
-  <td><a href="https://github.com/UtkarshD18/bogEcom">UtkarshD18/bogEcom</a></td>
-  <td><a href="https://github.com/UtkarshD18/bogEcom/commit/bb70d781102720803c282af2effbd72f87bdb9ff"><code>bb70d78</code></a></td>
-  <td>feat: UI updates, subscription flow &amp; policy pages (conflicts resolve…</td>
-</tr>
-<tr>
-  <td>2026-02-11</td>
-  <td><a href="https://github.com/UtkarshD18/bogEcom">UtkarshD18/bogEcom</a></td>
-  <td><a href="https://github.com/UtkarshD18/bogEcom/commit/73374974847d65fabf5fa1abfda9700498c50180"><code>7337497</code></a></td>
-  <td>Fix footer spacing issue (#11)</td>
-</tr>
-<tr>
-  <td>2026-02-11</td>
-  <td><a href="https://github.com/UtkarshD18/bogEcom">UtkarshD18/bogEcom</a></td>
-  <td><a href="https://github.com/UtkarshD18/bogEcom/commit/ea257258881a71f43b48fa19255d6c0385cc7113"><code>ea25725</code></a></td>
-  <td>Fix footer spacing issue (#11)</td>
+  <td>2026-10-07</td>
+  <td><a href="https://github.com/Piyush3558/GST-Reconciliation">Piyush3558/GST-Reconciliation</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/Piyush3558/GST-Reconciliation/commit/be9f56fdca96748de3b8184bf1a7caf4a125ca3c"><code>be9f56f</code></a></td>
+  <td>Initial commit</td>
 </tr>
 </table>
 </details>
 
-<sub>GitHub identifies co-authors from each commit's <code>Co-authored-by</code> trailers. Private repository details are intentionally excluded.</sub>
+<sub>Scans all accessible default-branch history. Private contributions are counted, while their repository names, commit IDs and messages stay hidden because this README is public.</sub>
 
 <!-- LIVE_COMMIT_HISTORY:END -->
 

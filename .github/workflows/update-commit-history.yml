@@ -29,6 +29,7 @@ jobs:
       - name: Update authored and co-authored history
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_STATS_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
           GITHUB_USERNAME: ${{ github.repository_owner }}
         run: node scripts/update-commit-history.mjs
 
