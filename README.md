@@ -374,13 +374,13 @@ languages_spoken: [English, Hindi]
 </tr>
 <tr>
   <td align="center"><strong>411</strong></td>
-  <td align="center"><strong>252</strong></td>
+  <td align="center"><strong>253</strong></td>
   <td align="center"><strong>14</strong></td>
   <td align="center"><strong>9</strong> (7 public + 2 private)</td>
 </tr>
 </table>
 
-<sub>Last synced Oct 29, 2026, 10:25 AM UTC · Public and private default branches · Updated automatically every hour</sub>
+<sub>Last synced Oct 29, 2026, 10:26 AM UTC · Public and private default branches · Updated automatically every hour</sub>
 
 <details open>
 <summary><strong>Latest authored and co-authored commit history</strong></summary>
@@ -392,6 +392,13 @@ languages_spoken: [English, Hindi]
   <th>Credit</th>
   <th>Commit</th>
   <th>Message</th>
+</tr>
+<tr>
+  <td>2026-10-29</td>
+  <td><a href="https://github.com/Piyush3558/Piyush3558">Piyush3558/Piyush3558</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/Piyush3558/Piyush3558/commit/5dfb87c4dabfb49f0cddecbb7a67f041cbc817ea"><code>5dfb87c</code></a></td>
+  <td>feat: sync commit history across all repositories</td>
 </tr>
 <tr>
   <td>2026-10-29</td>
@@ -665,13 +672,6 @@ languages_spoken: [English, Hindi]
   <td>Authored</td>
   <td><a href="https://github.com/Piyush3558/GST-Reconciliation/commit/fc7fde33dab57631c214897830e5340f01518895"><code>fc7fde3</code></a></td>
   <td>Add GST reconciliation upload portal and Excel export</td>
-</tr>
-<tr>
-  <td>2026-10-07</td>
-  <td><a href="https://github.com/Piyush3558/GST-Reconciliation">Piyush3558/GST-Reconciliation</a></td>
-  <td>Authored</td>
-  <td><a href="https://github.com/Piyush3558/GST-Reconciliation/commit/be9f56fdca96748de3b8184bf1a7caf4a125ca3c"><code>be9f56f</code></a></td>
-  <td>Initial commit</td>
 </tr>
 </table>
 </details>
