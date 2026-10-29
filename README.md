@@ -374,7 +374,7 @@ languages_spoken: [English, Hindi]
 </tr>
 <tr>
   <td align="center"><strong>411</strong></td>
-  <td align="center"><strong>244</strong></td>
+  <td align="center"><strong>245</strong></td>
   <td align="center"><strong>14</strong></td>
   <td align="center"><strong>7</strong></td>
 </tr>
