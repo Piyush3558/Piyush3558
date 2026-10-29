@@ -374,13 +374,13 @@ languages_spoken: [English, Hindi]
 </tr>
 <tr>
   <td align="center"><strong>411</strong></td>
-  <td align="center"><strong>254</strong></td>
+  <td align="center"><strong>255</strong></td>
   <td align="center"><strong>14</strong></td>
   <td align="center"><strong>9</strong> (7 public + 2 private)</td>
 </tr>
 </table>
 
-<sub>Last synced Oct 29, 2026, 10:30 AM UTC · Public and private default branches · Updated automatically every hour</sub>
+<sub>Last synced Oct 29, 2026, 10:36 AM UTC · Public and private default branches · Updated automatically every hour</sub>
 
 <details open>
 <summary><strong>Latest authored and co-authored commit history</strong></summary>
@@ -392,6 +392,13 @@ languages_spoken: [English, Hindi]
   <th>Credit</th>
   <th>Commit</th>
   <th>Message</th>
+</tr>
+<tr>
+  <td>2026-10-29</td>
+  <td><a href="https://github.com/Piyush3558/Piyush3558">Piyush3558/Piyush3558</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/Piyush3558/Piyush3558/commit/f71e489adf9e4c41c42600196df5ec4d76187c46"><code>f71e489</code></a></td>
+  <td>fix: restore compact language statistics layout</td>
 </tr>
 <tr>
   <td>2026-10-29</td>
@@ -665,13 +672,6 @@ languages_spoken: [English, Hindi]
   <td>Authored</td>
   <td><a href="https://github.com/Piyush3558/GST-Reconciliation/commit/4f9d083bbb5fc83fda105cc28bc9cadd9ec514fe"><code>4f9d083</code></a></td>
   <td>Merge pull request #2 from Piyush3558/demo</td>
-</tr>
-<tr>
-  <td>2026-10-07</td>
-  <td><a href="https://github.com/Piyush3558/GST-Reconciliation">Piyush3558/GST-Reconciliation</a></td>
-  <td>Authored</td>
-  <td><a href="https://github.com/Piyush3558/GST-Reconciliation/commit/718a0a8378df3bd1924dc9fec6fd22630344003e"><code>718a0a8</code></a></td>
-  <td>Merge pull request #1 from Piyush3558/demo</td>
 </tr>
 </table>
 </details>
