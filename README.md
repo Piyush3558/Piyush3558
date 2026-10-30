@@ -374,13 +374,13 @@ languages_spoken: [English, Hindi]
 </tr>
 <tr>
   <td align="center"><strong>411</strong></td>
-  <td align="center"><strong>263</strong></td>
+  <td align="center"><strong>273</strong></td>
   <td align="center"><strong>14</strong></td>
   <td align="center"><strong>9</strong> (7 public + 2 private)</td>
 </tr>
 </table>
 
-<sub>Last synced Oct 30, 2026, 9:59 AM UTC · Public and private default branches · Updated automatically every hour</sub>
+<sub>Last synced Oct 30, 2026, 4:42 PM UTC · Public and private default branches · Updated automatically every hour</sub>
 
 <details open>
 <summary><strong>Latest authored and co-authored commit history</strong></summary>
@@ -392,6 +392,76 @@ languages_spoken: [English, Hindi]
   <th>Credit</th>
   <th>Commit</th>
   <th>Message</th>
+</tr>
+<tr>
+  <td>2026-10-30</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM">UtkarshD18/B1G-CRM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM/commit/98f7f72fe910c3bc4462097011510e7e493ea9c3"><code>98f7f72</code></a></td>
+  <td>Merge pull request #27 from UtkarshD18/demo-live</td>
+</tr>
+<tr>
+  <td>2026-10-30</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM">UtkarshD18/B1G-CRM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM/commit/3b8b2b6928effd9a3111f86aa2693dbc7020f69e"><code>3b8b2b6</code></a></td>
+  <td>fix: guard automation and website verification requests</td>
+</tr>
+<tr>
+  <td>2026-10-30</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM">UtkarshD18/B1G-CRM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM/commit/b949b38a32e1d5e9dc69ce498202b0e252899db9"><code>b949b38</code></a></td>
+  <td>fix: constrain knowledge-base and webhook outbound requests</td>
+</tr>
+<tr>
+  <td>2026-10-30</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM">UtkarshD18/B1G-CRM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM/commit/9b2984bb51f4ad30c4417f2b8e0ffe71807f7868"><code>9b2984b</code></a></td>
+  <td>fix: fail closed for production AI and require order verification</td>
+</tr>
+<tr>
+  <td>2026-10-30</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM">UtkarshD18/B1G-CRM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM/commit/3ca335271a9014665078cf72499f233b6492bdb4"><code>3ca3352</code></a></td>
+  <td>fix: await inbound persistence and serialize conversation appends</td>
+</tr>
+<tr>
+  <td>2026-10-30</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM">UtkarshD18/B1G-CRM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM/commit/23f36142ab81bf923ad4878b81154ae152cf752f"><code>23f3614</code></a></td>
+  <td>fix: require write permission for contact and lead mutations</td>
+</tr>
+<tr>
+  <td>2026-10-30</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM">UtkarshD18/B1G-CRM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM/commit/c0656c9ce999960cc336377c76ccf80540eb2edd"><code>c0656c9</code></a></td>
+  <td>fix: disable production installer and verify database TLS</td>
+</tr>
+<tr>
+  <td>2026-10-30</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM">UtkarshD18/B1G-CRM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/UtkarshD18/B1G-CRM/commit/1996d737db0fca55fc8f415cbc77f5ccc0adbdf1"><code>1996d73</code></a></td>
+  <td>fix: address critical assessment auth webhook and billing gaps</td>
+</tr>
+<tr>
+  <td>2026-10-30</td>
+  <td><a href="https://github.com/Piyush3558/GATE-ENTRY-SYSTEM">Piyush3558/GATE-ENTRY-SYSTEM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/Piyush3558/GATE-ENTRY-SYSTEM/commit/27def55053fe8069205e7ca354fb5ee1c7cdf320"><code>27def55</code></a></td>
+  <td>Merge pull request #14 from Piyush3558/demo-live</td>
+</tr>
+<tr>
+  <td>2026-10-30</td>
+  <td><a href="https://github.com/Piyush3558/GATE-ENTRY-SYSTEM">Piyush3558/GATE-ENTRY-SYSTEM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/Piyush3558/GATE-ENTRY-SYSTEM/commit/e72de7602f3e9f793b67d7407e639d7d95928803"><code>e72de76</code></a></td>
+  <td>Add Capacitor Android application</td>
 </tr>
 <tr>
   <td>2026-10-30</td>
@@ -602,76 +672,6 @@ languages_spoken: [English, Hindi]
   <td>Authored</td>
   <td><a href="https://github.com/UtkarshD18/B1G-CRM/commit/82f5d338d9311c9d53b604c6ae002d4a54608e69"><code>82f5d33</code></a></td>
   <td>Support administrator-only password resets without profile changes</td>
-</tr>
-<tr>
-  <td>2026-10-24</td>
-  <td><a href="https://github.com/UtkarshD18/B1G-CRM">UtkarshD18/B1G-CRM</a></td>
-  <td>Authored</td>
-  <td><a href="https://github.com/UtkarshD18/B1G-CRM/commit/39f60093dd451bf46ef8d4d543ba7540e3d08031"><code>39f6009</code></a></td>
-  <td>Clarify legacy migration records in deployment guide [skip ci]</td>
-</tr>
-<tr>
-  <td>2026-10-24</td>
-  <td><a href="https://github.com/UtkarshD18/B1G-CRM">UtkarshD18/B1G-CRM</a></td>
-  <td>Authored</td>
-  <td><a href="https://github.com/UtkarshD18/B1G-CRM/commit/06a537884c2b0a052acd49d1195adac0b6f40596"><code>06a5378</code></a></td>
-  <td>Allow initial setup to replace unchanged legacy demo administrator</td>
-</tr>
-<tr>
-  <td>2026-10-24</td>
-  <td><a href="https://github.com/UtkarshD18/B1G-CRM">UtkarshD18/B1G-CRM</a></td>
-  <td>Authored</td>
-  <td><a href="https://github.com/UtkarshD18/B1G-CRM/commit/01a5d342c627097f2e33bf72b3a9e7ae0c5f13a5"><code>01a5d34</code></a></td>
-  <td>Provision initial administrator securely and verify PostgreSQL and CO…</td>
-</tr>
-<tr>
-  <td>2026-10-24</td>
-  <td><a href="https://github.com/UtkarshD18/B1G-CRM">UtkarshD18/B1G-CRM</a></td>
-  <td>Authored</td>
-  <td><a href="https://github.com/UtkarshD18/B1G-CRM/commit/db0c960ede87be73ad0f7ab39f5992159013ab24"><code>db0c960</code></a></td>
-  <td>Fix cached sign-in routing and hide HTML API error responses</td>
-</tr>
-<tr>
-  <td>2026-10-24</td>
-  <td><a href="https://github.com/UtkarshD18/B1G-CRM">UtkarshD18/B1G-CRM</a></td>
-  <td>Authored</td>
-  <td><a href="https://github.com/UtkarshD18/B1G-CRM/commit/8637014c8341808a6ad008a741b1c5aa0b153165"><code>8637014</code></a></td>
-  <td>Route widget and webhook URLs to hosted backend and document deployment</td>
-</tr>
-<tr>
-  <td>2026-10-24</td>
-  <td><a href="https://github.com/UtkarshD18/B1G-CRM">UtkarshD18/B1G-CRM</a></td>
-  <td>Authored</td>
-  <td><a href="https://github.com/UtkarshD18/B1G-CRM/commit/70347cf816391985c55ac610041844cce76fb35e"><code>70347cf</code></a></td>
-  <td>Install required build tools on Render</td>
-</tr>
-<tr>
-  <td>2026-10-24</td>
-  <td><a href="https://github.com/UtkarshD18/B1G-CRM">UtkarshD18/B1G-CRM</a></td>
-  <td>Authored</td>
-  <td><a href="https://github.com/UtkarshD18/B1G-CRM/commit/cf0b10d54e845eefa2d4cf51daf97506b29db0e1"><code>cf0b10d</code></a></td>
-  <td>Configure backend public URLs and database-backed CI</td>
-</tr>
-<tr>
-  <td>2026-10-24</td>
-  <td><a href="https://github.com/UtkarshD18/B1G-CRM">UtkarshD18/B1G-CRM</a></td>
-  <td>Authored</td>
-  <td><a href="https://github.com/UtkarshD18/B1G-CRM/commit/58fdec8532572db5457aeb7b4d38370c11811050"><code>58fdec8</code></a></td>
-  <td>chore(deploy): allow render service branch to default to blueprint br…</td>
-</tr>
-<tr>
-  <td>2026-10-24</td>
-  <td><a href="https://github.com/UtkarshD18/B1G-CRM">UtkarshD18/B1G-CRM</a></td>
-  <td>Authored</td>
-  <td><a href="https://github.com/UtkarshD18/B1G-CRM/commit/ebef4a7f852cb2b3102d231c68a6f1e5829e9ae9"><code>ebef4a7</code></a></td>
-  <td>Configure tested Firebase and Render deployment pipeline</td>
-</tr>
-<tr>
-  <td>2026-10-24</td>
-  <td><a href="https://github.com/UtkarshD18/B1G-CRM">UtkarshD18/B1G-CRM</a></td>
-  <td>Authored</td>
-  <td><a href="https://github.com/UtkarshD18/B1G-CRM/commit/e3e4cf2b0e6516c95eb687be08d4b1ef2574235a"><code>e3e4cf2</code></a></td>
-  <td>Merge pull request #26 from UtkarshD18/demo-live</td>
 </tr>
 </table>
 </details>
