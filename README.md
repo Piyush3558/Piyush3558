@@ -374,13 +374,13 @@ languages_spoken: [English, Hindi]
 </tr>
 <tr>
   <td align="center"><strong>411</strong></td>
-  <td align="center"><strong>256</strong></td>
+  <td align="center"><strong>259</strong></td>
   <td align="center"><strong>14</strong></td>
   <td align="center"><strong>9</strong> (7 public + 2 private)</td>
 </tr>
 </table>
 
-<sub>Last synced Oct 29, 2026, 10:38 AM UTC · Public and private default branches · Updated automatically every hour</sub>
+<sub>Last synced Oct 30, 2026, 8:58 AM UTC · Public and private default branches · Updated automatically every hour</sub>
 
 <details open>
 <summary><strong>Latest authored and co-authored commit history</strong></summary>
@@ -392,6 +392,27 @@ languages_spoken: [English, Hindi]
   <th>Credit</th>
   <th>Commit</th>
   <th>Message</th>
+</tr>
+<tr>
+  <td>2026-10-30</td>
+  <td><a href="https://github.com/Piyush3558/GATE-ENTRY-SYSTEM">Piyush3558/GATE-ENTRY-SYSTEM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/Piyush3558/GATE-ENTRY-SYSTEM/commit/65f60ebe4c95bf3f06815577e089c66e2041423d"><code>65f60eb</code></a></td>
+  <td>Merge pull request #12 from Piyush3558/demo-live</td>
+</tr>
+<tr>
+  <td>2026-10-30</td>
+  <td><a href="https://github.com/Piyush3558/GATE-ENTRY-SYSTEM">Piyush3558/GATE-ENTRY-SYSTEM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/Piyush3558/GATE-ENTRY-SYSTEM/commit/a85227f51504a080b1dfe8e1af026afa82ecba14"><code>a85227f</code></a></td>
+  <td>Fixed Mobile Viewing CSS</td>
+</tr>
+<tr>
+  <td>2026-10-30</td>
+  <td><a href="https://github.com/Piyush3558/GATE-ENTRY-SYSTEM">Piyush3558/GATE-ENTRY-SYSTEM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/Piyush3558/GATE-ENTRY-SYSTEM/commit/f69dad226ad7db17b56291d8c4fc88b5d448264b"><code>f69dad2</code></a></td>
+  <td>Fixed Mobile Viewing css</td>
 </tr>
 <tr>
   <td>2026-10-29</td>
@@ -652,27 +673,6 @@ languages_spoken: [English, Hindi]
   <td><a href="https://github.com/Piyush3558/GST-Reconciliation/commit/f0c7391e2d26720f27761a94b1f90497f36bec5e"><code>f0c7391</code></a></td>
   <td>Demo live (#4)</td>
 </tr>
-<tr>
-  <td>2026-10-08</td>
-  <td><a href="https://github.com/Piyush3558/GST-Reconciliation">Piyush3558/GST-Reconciliation</a></td>
-  <td>Authored</td>
-  <td><a href="https://github.com/Piyush3558/GST-Reconciliation/commit/87cadaf48f337cd7e316da78fe6e1f13d2f49ed0"><code>87cadaf</code></a></td>
-  <td>boomers update (#3)</td>
-</tr>
-<tr>
-  <td>2026-10-07</td>
-  <td><a href="https://github.com/Piyush3558/Piyush3558">Piyush3558/Piyush3558</a></td>
-  <td>Authored</td>
-  <td><a href="https://github.com/Piyush3558/Piyush3558/commit/01091af4e8e4e67119ef6f10c0592307a0a43e9f"><code>01091af</code></a></td>
-  <td>Restore full profile README and retain UFI Filters updates</td>
-</tr>
-<tr>
-  <td>2026-10-07</td>
-  <td><a href="https://github.com/Piyush3558/Piyush3558">Piyush3558/Piyush3558</a></td>
-  <td>Authored</td>
-  <td><a href="https://github.com/Piyush3558/Piyush3558/commit/f270a7064ba7a2038fee9fa117aee022f2c7e7ea"><code>f270a70</code></a></td>
-  <td>Update README with UFI Filters role and internship projects</td>
-</tr>
 </table>
 </details>
 
@@ -708,8 +708,8 @@ languages_spoken: [English, Hindi]
 > 📊 *Automatically synchronized daily from GitHub Linguist across 9 accessible public and private repositories.*
 
 ```text
-JavaScript  [##################  ]   91.1%
-CSS         [#                   ]    4.3%
+JavaScript  [##################  ]   90.9%
+CSS         [#                   ]    4.4%
 HTML        [#                   ]    1.9%
 Python      [#                   ]    1.6%
 TypeScript  [#                   ]    0.7%
