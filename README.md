@@ -374,13 +374,13 @@ languages_spoken: [English, Hindi]
 </tr>
 <tr>
   <td align="center"><strong>411</strong></td>
-  <td align="center"><strong>259</strong></td>
+  <td align="center"><strong>263</strong></td>
   <td align="center"><strong>14</strong></td>
   <td align="center"><strong>9</strong> (7 public + 2 private)</td>
 </tr>
 </table>
 
-<sub>Last synced Oct 30, 2026, 8:58 AM UTC · Public and private default branches · Updated automatically every hour</sub>
+<sub>Last synced Oct 30, 2026, 9:59 AM UTC · Public and private default branches · Updated automatically every hour</sub>
 
 <details open>
 <summary><strong>Latest authored and co-authored commit history</strong></summary>
@@ -392,6 +392,34 @@ languages_spoken: [English, Hindi]
   <th>Credit</th>
   <th>Commit</th>
   <th>Message</th>
+</tr>
+<tr>
+  <td>2026-10-30</td>
+  <td><a href="https://github.com/Piyush3558/GATE-ENTRY-SYSTEM">Piyush3558/GATE-ENTRY-SYSTEM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/Piyush3558/GATE-ENTRY-SYSTEM/commit/17c7d0a2b10427e863ad0d1c5ab6152078a028d6"><code>17c7d0a</code></a></td>
+  <td>Merge pull request #13 from Piyush3558/demo-live</td>
+</tr>
+<tr>
+  <td>2026-10-30</td>
+  <td><a href="https://github.com/Piyush3558/GATE-ENTRY-SYSTEM">Piyush3558/GATE-ENTRY-SYSTEM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/Piyush3558/GATE-ENTRY-SYSTEM/commit/4ec0c2827044745a12c8ffdc3f345d0437f25ad7"><code>4ec0c28</code></a></td>
+  <td>Haptic FeedBack Added</td>
+</tr>
+<tr>
+  <td>2026-10-30</td>
+  <td><a href="https://github.com/Piyush3558/GATE-ENTRY-SYSTEM">Piyush3558/GATE-ENTRY-SYSTEM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/Piyush3558/GATE-ENTRY-SYSTEM/commit/67bb2ef64ab334858419dbbf188247d868c922b5"><code>67bb2ef</code></a></td>
+  <td> Header Bar Fixed In Security,Employee</td>
+</tr>
+<tr>
+  <td>2026-10-30</td>
+  <td><a href="https://github.com/Piyush3558/GATE-ENTRY-SYSTEM">Piyush3558/GATE-ENTRY-SYSTEM</a></td>
+  <td>Authored</td>
+  <td><a href="https://github.com/Piyush3558/GATE-ENTRY-SYSTEM/commit/0779f1bdb199f9e41ccc90cfe2561d66b1fcaf10"><code>0779f1b</code></a></td>
+  <td> Header Bar Fixed In Admin</td>
 </tr>
 <tr>
   <td>2026-10-30</td>
@@ -644,34 +672,6 @@ languages_spoken: [English, Hindi]
   <td>Authored</td>
   <td><a href="https://github.com/UtkarshD18/B1G-CRM/commit/e3e4cf2b0e6516c95eb687be08d4b1ef2574235a"><code>e3e4cf2</code></a></td>
   <td>Merge pull request #26 from UtkarshD18/demo-live</td>
-</tr>
-<tr>
-  <td>2026-10-22</td>
-  <td>🔒 Private repository</td>
-  <td>Authored</td>
-  <td>Private commit</td>
-  <td>Private contribution details hidden</td>
-</tr>
-<tr>
-  <td>2026-10-12</td>
-  <td><a href="https://github.com/Piyush3558/Piyush3558">Piyush3558/Piyush3558</a></td>
-  <td>Authored</td>
-  <td><a href="https://github.com/Piyush3558/Piyush3558/commit/d422e725197f2e676849a4b98d8f79a41864a830"><code>d422e72</code></a></td>
-  <td>Merge pull request #3 from Piyush3558/copilot/update-readme-only</td>
-</tr>
-<tr>
-  <td>2026-10-12</td>
-  <td><a href="https://github.com/Piyush3558/Piyush3558">Piyush3558/Piyush3558</a></td>
-  <td>Co-authored</td>
-  <td><a href="https://github.com/Piyush3558/Piyush3558/commit/f85b0f50bc158e810155fc1ff5799f5996c7fa4c"><code>f85b0f5</code></a></td>
-  <td>Update GitHub analytics commit count note in README</td>
-</tr>
-<tr>
-  <td>2026-10-08</td>
-  <td><a href="https://github.com/Piyush3558/GST-Reconciliation">Piyush3558/GST-Reconciliation</a></td>
-  <td>Authored</td>
-  <td><a href="https://github.com/Piyush3558/GST-Reconciliation/commit/f0c7391e2d26720f27761a94b1f90497f36bec5e"><code>f0c7391</code></a></td>
-  <td>Demo live (#4)</td>
 </tr>
 </table>
 </details>
