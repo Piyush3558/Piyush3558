@@ -708,10 +708,10 @@ languages_spoken: [English, Hindi]
 > 📊 *Automatically synchronized daily from GitHub Linguist across 9 accessible public and private repositories.*
 
 ```text
-JavaScript  [##################  ]   90.9%
+JavaScript  [##################  ]   90.7%
 CSS         [#                   ]    4.5%
 HTML        [#                   ]    1.9%
-Python      [#                   ]    1.6%
+Python      [#                   ]    1.8%
 TypeScript  [#                   ]    0.7%
 PLpgSQL     [#                   ]    0.2%
 PowerShell  [#                   ]    0.2%
