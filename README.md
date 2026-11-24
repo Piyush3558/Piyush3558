@@ -709,7 +709,7 @@ languages_spoken: [English, Hindi]
 
 ```text
 JavaScript  [##################  ]   90.7%
-CSS         [#                   ]    4.5%
+CSS         [#                   ]    4.6%
 HTML        [#                   ]    1.9%
 Python      [#                   ]    1.8%
 TypeScript  [#                   ]    0.7%
