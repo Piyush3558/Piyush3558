@@ -708,18 +708,18 @@ languages_spoken: [English, Hindi]
 > 📊 *Automatically synchronized daily from GitHub Linguist across 9 accessible public and private repositories.*
 
 ```text
-JavaScript  [##################  ]   90.7%
+JavaScript  [##################  ]   90.4%
 CSS         [#                   ]    4.6%
-HTML        [#                   ]    1.9%
-Python      [#                   ]    1.8%
-TypeScript  [#                   ]    0.7%
-PLpgSQL     [#                   ]    0.2%
+TypeScript  [#                   ]    1.8%
+HTML        [#                   ]    1.7%
+Python      [#                   ]    0.8%
+PLpgSQL     [#                   ]    0.3%
 PowerShell  [#                   ]    0.2%
+Shell       [#                   ]    0.1%
 Kotlin      [#                   ]    0.1%
 Batchfile   [#                   ]    0.0%
 Dockerfile  [#                   ]    0.0%
 Java        [#                   ]    0.0%
-Shell       [#                   ]    0.0%
 ```
 
 <sub>Percentages show each language's share of detected code across your projects.</sub>
